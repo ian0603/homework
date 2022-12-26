@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap網頁</title>    
+  </head>
+  <body style="padding-top:50px">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	  <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">我的荒野亂鬥日記</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">特別活動</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="機甲.html">機甲入侵</a>
+                <a class="dropdown-item" href="團隊首領戰.html">團隊首領戰</a>
+				<a class="dropdown-item" href="城市大激鬥.html">城市大激鬥</a>
+				<a class="dropdown-item" href="積分爭奪戰.html">積分爭奪戰</a>
+              </div>
+            </li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">獎盃</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="寶石爭奪.html">寶石爭奪戰</a>
+                <a class="dropdown-item" href="金庫.html">金庫攻防戰</a>
+				<a class="dropdown-item" href="荒野亂鬥.html">戰隊聯賽</a>
+				<a class="dropdown-item" href="搶星.html">搶星大作戰</a>
+				
+            </li>
+          </ul>
+		  <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="輸入模式">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>  
+        </div>		
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <main>	
+      <div class="container">
+	    <h1 class="text-center mt-5">荒野亂鬥之旅</h1>
+		
+	    <!-- 第一個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>寶石爭奪戰<small>（位於聯賽活動）</small></h2>
+            <p class="lead">(玩家總盃數達30盃即可解鎖此模式)雙方玩家爭奪場中央礦井生出的寶石，而率先取得十顆或以上的寶石後就會開始十五秒的倒數，而擁有十顆或以上寶石的一方的玩家未被擊殺的話則獲勝，若雙方都有相同數量的寶石則會停止倒數，待其中一方擁有更多寶石後開始倒數。</p>
+		    <p>若一直沒有倒數完畢，則當時間結束時則不論是否有十顆或十顆以上的寶石，只要寶石數量較多的一方就能勝利。若時間結束時雙方寶石數量相等，則會平局完場。(礦井每七秒會生出一枚寶石。一局最多會生出二十九顆寶石)</p>
+          </div>
+          <div class="col-md-5">
+            <img src="寶石.jpg" class="img-fluid">
+          </div>
+        </div>	
+		
+        <!-- 第二個景點 -->
+        <hr>
+        <div class="row">
+          <div class="col-md-7 order-md-5">
+		    <h2>金庫攻防戰<small>(位於聯賽活動)</small></h2>
+            <p class="lead">(玩家總盃數到達800盃即可解鎖此欄位。每天變更一次此模式)雙方均有一個金庫，率先摧毀敵方金庫的一方或時間結束時金庫血量較多的一方獲勝。(金庫血量由全場玩家的平均等級決定)</p>
+		    <p>對戰時間結束時，對敵方金庫造成較多傷害的一方贏得對戰。</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="金庫.jpg" class="img-fluid">
+          </div>
+        </div>
+		
+	    <!-- 第三個景點 -->
+	    <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <h2>亂鬥足球<small>（位於聯賽活動）</small></h2>
+            <p class="lead">特定期間才有）雙方玩家爭奪場中的排球，率先觸碰到排球的隊伍將會把球拋去敵方的場地，玩家必須在球落地之前站到指定位置來進行傳球，反之，敵方將會獲得一分，率先獲得兩分的一方或在時間結束分數較多的一方獲勝。</p>
+		    <p>假如到時間結束時雙方分數一樣，將會進入加時賽，場上所有障礙物會被清空，而先獲得一分的隊伍則直接獲勝。若加時賽時間結束時雙方還是沒有得分，則會平局收場。</p>
+          </div>
+          <div class="col-md-5">
+            <img src="亂鬥.jpg" class="img-fluid">
+          </div>
+        </div>	  
+	  </div>
+	</main>
+	
+    <!-- 頁尾 -->
+	<footer>
+	  <div class="container">
+	    <hr>              
+        <p>&copy; 2022<奠>陳公聖儒<奠>多媒體&middot;<a href="#">隱私權政策</a>&middot;<a href="#">服務條款</a></p>
+		<p class="text-end"><a href="#">Back to top</a></p>
+      </div>
+    </footer> 	
+  </body>
+</html>
